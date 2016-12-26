@@ -1,0 +1,14 @@
+{
+  "name": "dendro-migrations",
+  "version": "0.0.1",
+  "description": "Project Dendro MongoDB Migrations.",
+  "license": "BSD-2-Clause-FreeBSD",
+  "author": "J. Scott Smith <scott@newleafsolutionsinc.com>",
+  "scripts": {
+    "start": "migrate-mongo up",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=6.5.0"
+  }
+}
